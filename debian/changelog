@@ -1,0 +1,6 @@
+indicator-sticky-notes (0.5.9) trusty; urgency=medium
+
+  * Added revamped icons
+  * Cloned version 0.5.9 from original repository https://github.com/umangv/indicator-stickynotes
+
+ -- Javed Hussain <javedh.dev@gmail.com>  Sat, 27 Sep 2020 11:16:00 +0530

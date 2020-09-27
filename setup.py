@@ -105,8 +105,7 @@ def main():
             data_files=data_files,
             cmdclass={'build': Build, 'install_data': InstallData,
                 'build_po': BuildPo, 'clean':Clean},
-            long_description="Write reminders on notes with Indicator "
-                "Stickynotes")
+            long_description="Write reminders on notes with Indicator Sticky Notes")
 
 if __name__ == "__main__":
     main()

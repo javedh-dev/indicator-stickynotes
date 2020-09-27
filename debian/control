@@ -1,0 +1,13 @@
+Source: indicator-sticky-notes
+Maintainer: Javed Hussain <javedh.dev@gmail.com> 
+Section: utils 
+Priority: optional 
+Standards-Version: 4.0.0
+Build-Depends: debhelper (>= 9), dh-python, python3
+X-Python3-Version: >= 3.2
+
+Package: indicator-sticky-notes
+Architecture: all 
+Depends: python-gi 
+Description: Sticky Notes 
+ Write reminders on notes with Indicator Sticky Notes.

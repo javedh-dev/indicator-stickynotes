@@ -1,0 +1,4 @@
+#!/usr/bin/make -f 
+# This file is responsible about running the installation process on the local machine to install the package, you can view more information about this file from here: https://www.debian.org/doc/manuals/maint-guide/dreq.en.html#defaultrules Though you won't need anything more for your Python program. 
+%: 
+	dh $@  --with=python3 --buildsystem=pybuild
